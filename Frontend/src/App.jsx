@@ -12,6 +12,13 @@ const App = () => {
           <img src="/plane.png" alt="Plane Icon" className='absolute -left-28 top-1/2 -translate-y-1/2 group-hover:left-20 group-hover:transition-all group-hover:delay-500 group-hover:duration-500'/>
         </div>
       </button>
+      <div className='centerChild absolute w-full h-full bg-fuchsia-300 -z-10 opacity-0 invisible transition-opacity'>
+        <div className='relative w-183.75 h-150 bg-white rounded-3xl'>
+          <button className='absolute top-4 right-5 cursor-pointer hover:scale-110 transition-transform'>
+            <img src="/cancel.png" alt="cancel-icon" width={24}/>
+          </button>
+        </div>
+      </div>
     </div>
     </>
   )
