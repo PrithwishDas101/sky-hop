@@ -23,5 +23,15 @@
   background-image: url(earth.jpg);
   background-repeat: repeat-x;
   background-size: 10rem auto;
-  box-shadow: inset 0 0 1rem #6a6161, 0 0 1rem #4b4343 ;
+  box-shadow: inset 0 0 1rem #6a6161, 0 0 1rem #4b4343;
+  animation: globeAnimation 10s infinite linear;
+}
+
+@keyframes globeAnimation {
+  0% {
+    background-position: 0 center;
+  }
+  100% {
+    background-position: 1000% center;
+  }
 }
